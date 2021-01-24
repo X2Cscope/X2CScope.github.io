@@ -1,0 +1,18 @@
+docs:
+  - title: Getting Started 
+    children:
+      - title: "Quick-Start Guide"
+        url: /quick-start-guide/
+      - title: "X2Cscope concept"
+        url: /structure/
+      - title: "Installation"
+        url: /installation/
+      - title: "Demos"
+        url: /demos/
+
+  - title: Scripting
+    children:
+      - title: "Watch APIs"
+        url: /scriptingWatch/
+      - title: "Scope APIs"
+        url: /scriptingScope/
