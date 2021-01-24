@@ -1,3 +1,6 @@
+sidebar:
+  nav: "docs"
+
 # X2CScope
 
 X2CScope is a runtime online debugging firmware tool for Embedded systems, MCUs. It works in RUN and DEBUGGING mode. 
