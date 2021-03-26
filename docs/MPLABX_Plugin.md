@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: X2Cscope plugin
 nav_order: 2
 ---

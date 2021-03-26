@@ -1,11 +1,11 @@
 ---
-layout: home
+layout: default
 title: Overview
 nav_order: 1
 ---
 # X2Cscope
 
-X2CScope is a runtime, online debugger. It is a firmware based tool for Embedded systems, Microcontrollers. 
+X2CScope is a runtime, online debugger. It is a firmware based tool for [Microchip](https://www.microchip.com/) microcontrollers. 
 X2Cscope is for generic use in any embedded application and perfectly fits for signal processing related applications.
 
 ![AnimatedScope](images/Scope_Animated.gif)
