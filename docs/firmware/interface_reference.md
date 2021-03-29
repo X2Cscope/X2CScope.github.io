@@ -13,11 +13,19 @@ There are 4 public interface available at the precompiled library.
 ```c
 void X2CScope_Initialise(void);
 ```
-This must be called befure using X2Cscope.
-This initialise the buffer and LNET protocol. 
+This must be called before using X2Cscope.
+This initialises the buffer and LNET protocol. 
 **Example**
 ```c
-
+void X2Cscope_init(void){ //Call this at HW init section
+    X2CScope_HookUARTFunctions( 
+        sendSerial, 
+        receiveSerial, 
+        isReceiveDataAvailable, 
+        isSendReady
+        ); //Set communication interfaces
+    X2CScope_Initialise(); // Library built in function for buffer and LNET protocol initialise
+}
 ```
 
 ## X2CScope_HookUARTFunctions
@@ -59,30 +67,49 @@ uint8_t isSendReady()
 }
 
 // Then hook the functions at the init
-void X2Cscope_init(void){ //Call this ar init section
+void X2Cscope_init(void){ //Call this at HW init section
     X2CScope_HookUARTFunctions(
         sendSerial, 
         receiveSerial, 
         isReceiveDataAvailable, 
         isSendReady
-        );
+        ); //Set communication interfaces
     X2CScope_Initialise(); // Library built in function for buffer and LNET protocol initialise
 }
 ```
 
 ## X2Cscope_update
 
+X2Cscope_update(); must be called with exact same periodicity to have proper scope sampling. Timer, PWM or any other periodic interrupt is perfect place to call it. 1kHz-50kHz is the recommended sampling period.
+
 **Example**
 ```c
+// 1ms fixed period timer interrupt
+void __attribute__ ( ( interrupt, no_auto_psv ) ) _T1Interrupt (  )
+{
+    X2CScope_Update(); // SAmple point of X2Cscope
+    IFS0bits.T1IF = false; // Clear interrupt flag in the end
+}
 
 ```
 
 
-## X2Cscope_communicate;
+## X2Cscope_communicate
 
-X2Cscope_update(); must be called with exact same periodicity to have proper scope sampling. Therefore I will use the timer interrupt in my application with 1 ms. This will provide me 1kHz sampling. Of course you can go faster, if you need more details of the analog signals.
+X2Cscope_communicate(); is a sync/non blocking cooperative task, that handles the communication with the X2Cscope plugin. This can be called in low priority task. Do not starve too much this task, otherwise you might get timeout error at X2Cscope PC side.
 
 **Example**
 ```c
-
+int main(void)
+{
+    // initialize the device
+    initHardware();
+    X2CScope_Init();
+    ...
+    while (1)
+    {
+        myAppTask(); //Low priority task in the idle loop
+        X2CScope_Communicate(); //Handle the communication with X2Cscope GUI
+    }
+}
 ```

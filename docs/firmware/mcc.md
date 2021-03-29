@@ -5,9 +5,9 @@ parent: X2Cscope firmware
 nav_order: 2
 ---
 
-# Configure X2Cscope with MCC
+# Integrate X2Cscope with MCC
 
-## Documentation coming soon...
+## MCC documentation coming soon...
 
 ## Until then, you can use available [demos](../supportedHW.md)
 

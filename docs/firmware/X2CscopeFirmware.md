@@ -40,7 +40,7 @@ Must be called before using other X2Cscope interfaces. If you are using code con
 
 ### X2Cscope_communicate(); 
 
-This function is not very time critical This can executed in a low level task in an RTOS environment, or in the IDLE loop with OS free application. This must be done manually as it highly depends on the final application implementation. *X2Cscope_communicate();* handles the communication with the MPLAB X plugin on the PC side. Make sure there is always some time leftover to execute this function, itherwise you can get time out errors on the PC side.
+This function is not very time critical. This can executed in a low level task in an RTOS environment, or in the IDLE loop with OS free application. This must be done manually as it highly depends on the final application implementation. *X2Cscope_communicate();* handles the communication with the MPLAB X plugin on the PC side. Make sure there is always some time leftover to execute this function, itherwise you can get time out errors on the PC side.
 
 ### X2Cscope_update(); 
 

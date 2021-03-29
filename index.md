@@ -5,8 +5,10 @@ nav_order: 1
 ---
 # X2Cscope
 
-X2CScope is a runtime, online debugger. It is a firmware based tool for [Microchip](https://www.microchip.com/) microcontrollers. 
+X2CScope is a runtime, online/live debugger for [Microchip](https://www.microchip.com/) microcontrollers. 
 X2Cscope is for generic use in any embedded application and perfectly fits for signal processing related applications.
+
+Visit Microchip University training platform to find our tutorial video: [http://microchip.com/mu](http://microchip.com/mu)
 
 ![AnimatedScope](images/Scope_Animated.gif)
 
@@ -40,4 +42,4 @@ The recommended way to start is to use one of the prepared demo.
 
 ## Slow start
 
-The X2Cscope can be used with any 8bit*, 16bit and 32bit Microchip MCUs. To integarate X2Cscope to a custom application, follow the detailed description at [X2Cscope custom firmware integration chapter.](docs/X2CscopeFirmware.md)
+The X2Cscope can be used with any 8bit*, 16bit and 32bit Microchip MCUs. To integarate X2Cscope to a custom application, follow the detailed description at [X2Cscope custom firmware integration chapter.](/docs/firmware/X2CscopeFirmware.md)
