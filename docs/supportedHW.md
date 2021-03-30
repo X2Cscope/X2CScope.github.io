@@ -12,11 +12,11 @@ X2Cscope firmware side library is written in standard C. Therefore the whole [Mi
 
 All of the demos are hosted on github: <a href="https://github.com/x2cscope">https://github.com/x2cscope</a>
 
-| MCU | Arch. | Demo board | Code and doc link |
-| --- | ----- | ---------- | --------- |
-|  dsPIC33CK256MP508 | 16bit dsPIC33C | LVMC | <a href="https://github.com/X2Cscope/X2Cscope_blinky_dsPIC33CK_LVMC.X"> link</a>{: .btn .btn-purple}|
-| dsPIC33EP256MC502  | 16bit dsPIC33E | X2C Dev Board | <a href="https://github.com/X2Cscope/X2Cscope_blinky_dsPIC33EP_X2CDevBoard.X"> link</a>{: .btn .btn-purple}|
-| ATSAME51J20A | 32bit Cortex-M4 | SAME51 Curiosity nano | <a href="https://github.com/X2Cscope/X2Cscope_blinky_SAME51_CNANO"> link</a>{: .btn .btn-purple}|
+| MCU | Arch. | Demo board | Configurator | link |
+| --- | ----- | ---------- | ---- |--------- |
+|  dsPIC33CK256MP508 | 16bit dsPIC33C | LVMC | [MCC](/docs/firmware/mcc.md) | <a href="https://github.com/X2Cscope/X2Cscope_blinky_dsPIC33CK_LVMC.X"> Download</a>{: .btn .btn-purple}|
+| dsPIC33EP256MC502  | 16bit dsPIC33E | X2C Dev Board | [MCC](/docs/firmware/mcc.md) | <a href="https://github.com/X2Cscope/X2Cscope_blinky_dsPIC33EP_X2CDevBoard.X"> Download</a>{: .btn .btn-purple}|
+| ATSAME51J20A | 32bit Cortex-M4 | SAME51 Curiosity nano | [Harmony](/docs/firmware/harmony.md) | <a href="https://github.com/X2Cscope/X2Cscope_blinky_SAME51_CNANO"> Download</a>{: .btn .btn-purple}|
 
 
 ## Prepared libraries

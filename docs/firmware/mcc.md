@@ -2,7 +2,7 @@
 layout: default
 title: MPLAB Code Configurator
 parent: X2Cscope firmware
-nav_order: 2
+nav_order: 1
 ---
 
 # Integrate X2Cscope with MCC

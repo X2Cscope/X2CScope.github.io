@@ -1,3 +1,8 @@
+<img src="images/X2Cscope_logo.png" alt="LOGO" width="70"/>
+<a href="http://microchip.com"><img src="images/mchplogo.png" alt="MCHP" width="120" style="padding-left: 20px"/> </a>
+<a href="http://x2c.lcm.at"><img src="images/lcmblack.png" alt="MCHP" width="180" style="padding-left: 20px"/> </a>
+
+---
 # X2CScope.github.io
 This is the repository of X2Cscope documentation.
 

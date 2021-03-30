@@ -3,12 +3,14 @@ layout: default
 title: Overview
 nav_order: 1
 ---
-# X2Cscope
+
+<img src="images/X2Cscope_logo.png" alt="LOGO" align="left" style="padding-right: 15px" width="150"/>
 
 X2CScope is a runtime, online/live debugger for [Microchip](https://www.microchip.com/) microcontrollers. 
 X2Cscope is for generic use in any embedded application and perfectly fits for signal processing related applications.
 
 Visit Microchip University training platform to find our tutorial video: [http://microchip.com/mu](http://microchip.com/mu)
+
 
 ![AnimatedScope](images/Scope_Animated.gif)
 
