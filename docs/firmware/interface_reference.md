@@ -6,8 +6,14 @@ nav_order: 4
 ---
 
 # X2Cscope firmware library interface reference
+{:.no_toc}
 
-There are 4 public interface available at the precompiled library.
+### There are 4 public interfaces available at the precompiled library:
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 
 ## X2CScope_Initialise
 ```c

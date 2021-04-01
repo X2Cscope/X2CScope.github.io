@@ -1,15 +1,23 @@
 ---
 layout: default
-title: Bare Metal
+title: Bare/Custom project
 parent: X2Cscope firmware
 nav_order: 3
 ---
 
 # X2Cscope firmware manual set-up
-
+{: .no_toc}
 If you are advanced programmer and do not use configurator tools like [Harmony](harmony.md) or [MCC](mcc.md), then this guide will help you to use X2Cscope with your custom application.
 
 You can find a detailed tutorial video at [Microcipp University](https://microchip.com/mu) training platform.
+
+### Table of contents
+{: .no_toc .text-delta }
+
+* TOC
+{:toc}
+
+---
 
 ## 1. Get X2Cscope firmware library
 
@@ -46,7 +54,9 @@ This is the most tricky part. The X2Cscope library can use different serial comm
 4. Call X2CScopeCommunicate(); at the main idle loop or as a low priority task ([API reference](interface_reference.md))
 5. Call X2CScope_Update(); periodically at an interrupt. ([API reference](interface_reference.md))
 
-## 4. Done
+## 4. Compile then use X2Cscope
+
+At this stage the project is ready to use with X2Cscope.
 
 1. Compile and program the device
 2. Connect to the HW with the [X2Cscope GUI](/docs/MPLABX_Plugin.md)
