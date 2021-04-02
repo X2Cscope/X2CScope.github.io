@@ -13,7 +13,7 @@ The minimal requirements:
 * 5.5 kByte RAM (Can be lower, this is just default scope windows size)
 * Serial communication peripheral (UART, CAN, USB-CDC or Ethernet with TCP/IP)
 
-![Architecture](../../images/architecture.png)
+![Architecture](/images/architecture.png)
 
 
 There are 3 ways to integrate X2Cscope to your application:
@@ -32,7 +32,7 @@ There are 3 main interfaces, that must be integrated into your application.
 * `X2Cscope_communicate();`
 
 
-![X2Cscope APIs](../../images/X2CscopeAPIs.png)
+![X2Cscope APIs](/images/X2CscopeAPIs.png)
 
 ### X2Cscope_init(); 
 

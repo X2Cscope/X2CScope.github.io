@@ -16,7 +16,7 @@ nav_order: 2
 
 ## Install X2Cscope plugin within MPLAB X
 
-You will need MPLAB X IDE v5.40 or newer. <a href="www.microchip.com/mplabx">www.microchip.com/mplabx</a>
+You will need MPLAB X IDE v5.40 or newer. [www.microchip.com/mplabx](https://microchip.com/mplabx)
 
 1. Open MPLAB X IDE.
 2. Navigate to Tools-->Plugins at the top bar.
@@ -24,7 +24,7 @@ You will need MPLAB X IDE v5.40 or newer. <a href="www.microchip.com/mplabx">www
 4. Restart MPLAB X IDE.
 5. Open X2Cscope from Tools->Embedded->X2Cscope
 
-![X2Cscope plugin install](../images/X2CscopePluginInstall.gif)
+![X2Cscope plugin install](/images/X2CscopePluginInstall.gif)
 
 ## Connect X2Cscope to the device
 
@@ -74,7 +74,7 @@ Then apply the new settings. Then do points from 1. to 4. again.
 
 ## Use the Scope window
 
-1. Set sample time of scope. Attention! Set this according to the period of X2CScope_update(); function call. (See [Firmware guide](/docs/firmware/X2CscopeFirmware.md).)
+1. Set sample time of scope. Attention! Set this according to the period of X2CScope_update(); function call. (See [Firmware guide](firmware/X2CscopeFirmware.md).)
 2. Open Scope window from Data Views tab.
 3. Click to the empty Source box to select source signal/variable.
 4. Click Sample to start the scope.

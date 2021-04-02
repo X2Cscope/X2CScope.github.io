@@ -42,7 +42,7 @@ Install X2Cscope package with the Harmony conent manager.
 
 Next step is to create the framework project with the Harmony 3. If you already have a project, then just add X2Cscope component and regenerate the framework project.
 
-1. Create a new harmony project, or use existing project. ([Demos](/docs/supportedHW.md))
+1. Create a new harmony project, or use existing project. ([Demos](../supportedHW.md))
 2. Open Harmony configurator (Tools->Embedded)
 3. Add X2Cscope component.
 4. Add UART capable communication component.
@@ -71,5 +71,5 @@ The Harmony framework project automatically calls the X2Cscope initialisation ro
 At this stage the project is ready to use with X2Cscope.
 
 1. Compile and program the device
-2. Connect to the HW with the [X2Cscope GUI](/docs/MPLABX_Plugin.md)
-3. [Use X2Cscope](/docs/MPLABX_Plugin.md) watch and scope windows
+2. Connect to the HW with the [X2Cscope GUI](../MPLABX_Plugin.md)
+3. [Use X2Cscope](../MPLABX_Plugin.md) watch and scope windows
