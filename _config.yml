@@ -32,6 +32,10 @@ gh_edit_branch: "master" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 
+# Google Analytics Tracking
+ga_tracking: UA-188343628-1
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
