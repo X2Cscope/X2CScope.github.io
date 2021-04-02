@@ -7,12 +7,12 @@ nav_order: 2
 
 # X2Cscope frimware with Harmony
 {: .no_toc}
-<a href="https://www.microchip.com/mplab/harmony"><img src="../../images/harmony.png" alt="LOGO" align="right" style="padding-right: 15px" width="200"/></a>
+<a href="https://microchip-mplab-harmony.github.io/x2c/"><img src="../../images/harmony.png" alt="LOGO" align="right" style="padding-right: 15px" width="200"/></a>
 
 Harmony v3 is a Embedded Software Development Framework for Microchip 32-bit Microcontrollers and Microprocessors.
 
+Harmony v3 official documentation has a detailed X2Cscope section: [X2Cscope Harmony GUIDE](https://microchip-mplab-harmony.github.io/x2c/x2c-scope/docs/readme.html).
 
-To install and get started with Harmony v3 you can follow [this GUIDE](https://microchipdeveloper.com/harmony3:mhc-overview).
 
 ### Table of contents
 {: .no_toc .text-delta }

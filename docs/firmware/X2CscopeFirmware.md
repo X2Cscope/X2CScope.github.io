@@ -20,7 +20,7 @@ There are 3 ways to integrate X2Cscope to your application:
 1. [MPLAB Code Configurator](mcc.md) 
    * 16bit Microchip MCUs like dsPIC33CK
 2. [Harmony 3 configurator](harmony.md)
-   * 32bit MCUs like PIC32MZ or SAME54
+   * 32bit MCUs like PIC32MZ or SAME54 ([Official Harmony documentation](https://microchip-mplab-harmony.github.io/x2c/))
 3. [Bare matal integration for custom projects](baremetal.md)
    * If your code is already available and no configurator tool is used. 
    * Or for engineers who are believing only in their own handwritten code. 
