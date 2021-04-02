@@ -22,3 +22,11 @@ Before the selected script is executed, 2 variables with the type of these inter
 ## Examples
 
 Script examples are included within the demo applications. See the [Demos/Download page](../supportedHW.md).
+
+## Python syntax highlight in MPLAB X
+
+1. Download the python package for Netbeans: http://plugins.netbeans.org/plugin/56795/python4netbeans802
+2. Install the org-netbeans-modules-python-editor.nbm from the package.
+   1. Tools-->Plugins-->Downloaded-->Add Plugin..
+   2. Install
+   3. Restart MPLAB X
