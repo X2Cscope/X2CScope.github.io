@@ -5,7 +5,7 @@ parent: X2Cscope firmware
 nav_order: 2
 ---
 
-# X2Cscope frimware with Harmony
+# X2Cscope firmware with Harmony
 {: .no_toc}
 <a href="https://microchip-mplab-harmony.github.io/x2c/"><img src="../../images/harmony.png" alt="LOGO" align="right" style="padding-right: 15px" width="200"/></a>
 

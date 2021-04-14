@@ -22,6 +22,7 @@ All of the demos are hosted on github: <a href="https://github.com/x2cscope">htt
 
 | MCU | Arch. | Demo board | Configurator | link |
 | --- | ----- | ---------- | ---- |--------- |
+|  dsPIC33CK256MP508 | 16bit dsPIC33C | Curiosity | [Bare/Custom](firmware/baremetal.md) | <a href="https://github.com/X2Cscope/X2Cscope_blinky_dsPIC33CK_CURIO_customHAL.X"> Download</a>{: .btn .btn-purple}|
 |  dsPIC33CK256MP508 | 16bit dsPIC33C | LVMC | [MCC](firmware/mcc.md) | <a href="https://github.com/X2Cscope/X2Cscope_blinky_dsPIC33CK_LVMC.X"> Download</a>{: .btn .btn-purple}|
 |  dsPIC33CK256MP508 | 16bit dsPIC33C | LVMC | [Bare/Custom](firmware/baremetal.md) | <a href="https://github.com/X2Cscope/X2Cscope_blinky_dsPIC33CK_LVMC_customHAL.X"> Download</a>{: .btn .btn-purple}|
 | dsPIC33EP256MC502  | 16bit dsPIC33E | X2C Dev Board | [MCC](firmware/mcc.md) | <a href="https://github.com/X2Cscope/X2Cscope_blinky_dsPIC33EP_X2CDevBoard.X"> Download</a>{: .btn .btn-purple}|
