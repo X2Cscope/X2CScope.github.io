@@ -5,6 +5,12 @@ parent: Scripting
 nav_order: 2
 ---
 
+# New python implementation!
+
+The new recommended Python implementation for scripting interfaces can be found at pyx2cscope: https://x2cscope.github.io/pyx2cscope/
+
+!The documentation below is for the not maintained MPLAB X plugin!
+
 # `x2c_scope`
 
 Scope Control Interface variable preinitialised as: `public interface IScopeManager`

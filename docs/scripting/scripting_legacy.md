@@ -1,11 +1,17 @@
 ---
 layout: default
-title: Scripting
-nav_order: 5
+title: Scripting (legacy MPLAB X)
+nav_order: 6
 has_children: true
 ---
 
-# Summary 
+# New python implementation!
+
+The new recommended Python implementation for scripting interfaces can be found at pyx2cscope: https://x2cscope.github.io/pyx2cscope/
+
+!The documentation below is for the not maintained MPLAB X plugin!
+
+# Legacy MPLAB X plugin scripting summary:
 
 X2Cscope can run scripts with the help of Java and netbeans platform. It supports Python 2 (Jython engine) and Javascript (Java nashorn engine).
 

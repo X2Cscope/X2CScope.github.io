@@ -12,7 +12,6 @@ X2Cscope is for generic use in any embedded application and perfectly fits for s
 Visit Microchip University training platform for our training video: [http://microchip.com/mu](http://microchip.com/mu)
 
 
-![AnimatedScope](images/Scope_Animated.gif)
 
 ## Overview
 
@@ -26,9 +25,9 @@ The main difference (to ICSP/SWD/JTAG) is the X2Cscope uses builtin peripherals 
 ## Quick start
 
 You will need:
-1. X2Cscope plugin in MPLAB X [How to use the plugin](docs/MPLABX_Plugin.md)
+1. pyX2Cscope python package [How to use the python package](https://x2cscope.github.io/pyx2cscope/)
 2. HW with Microchip MCU [Supported MCUs](docs/supportedHW.md)
-3. Firmware with X2Cscope library  (Guide to integrate)
+3. Firmware with X2Cscope library  [Guide to integrate](docs/firmware/X2CscopeFirmware.md)
 4. USB-UART converter (UART interface is recommended for learning phase)
 
 The recommended way to start is to use one of the prepared demo.
@@ -37,9 +36,11 @@ The recommended way to start is to use one of the prepared demo.
 2. Build the demo project with MPLAB X.
 3. Program the target hardware.
 4. Connect USB-UART converter to the HW and the PC.
-5. Open X2Cscope plugin. (MPLAB X top bar --> Tools --> X2Cscope)
+5. Open pyX2Cscope [How to use the python package](https://x2cscope.github.io/pyx2cscope/)
+    a. `pip install pyX2Cscope`
+    b. `python -m pyx2cscope`
 6. Configure and select COM port. Baud rate is 115200 at most of the demos. (check device manager if needed for COM number)
-7. Connect with X2Cscope to the hardware.
+7. Connect with pyX2Cscope to the hardware. (Click connect button)
 8. Use scope and watch views.
 
 ## Slow start

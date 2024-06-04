@@ -1,7 +1,7 @@
 ---
 layout: default
-title: X2Cscope plugin
-nav_order: 2
+title: X2Cscope plugin (legacy MPLAb X)
+nav_order: 7
 ---
 # X2Cscope plugin for MPLAB X 
 {: .no_toc}
@@ -13,6 +13,11 @@ nav_order: 2
 {:toc}
 
 ---
+# New python implementation!
+
+The Python implementation can be found at pyx2cscope: https://x2cscope.github.io/pyx2cscope/
+
+!The documentation below is for the not maintained MPLAB X plugin!
 
 ## Install X2Cscope plugin within MPLAB X
 
