@@ -5,9 +5,9 @@ nav_order: 5
 has_children: true
 ---
 
-![Example Image](https://x2cscope.github.io/pyx2cscope/_images/pyx2cscope_logo.png)
+<img src="https://x2cscope.github.io/pyx2cscope/_images/pyx2cscope_logo.png" alt="LOGO" align="left" style="padding-right: 15px" width="150"/>
 
-# Quick start
+
 
 ```bash
 # Create virtual environment
@@ -19,5 +19,5 @@ pip install pyx2cscope
 python -m pyx2cscope
 ```
 
-Further documentation of pyX2Cscope usage:
-https://x2cscope.github.io/pyx2cscope/
+# Further documentation
+[https://x2cscope.github.io/pyx2cscope/](https://x2cscope.github.io/pyx2cscope/)

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: X2Cscope plugin (legacy MPLAb X)
+title: X2Cscope plugin (legacy)
 nav_order: 7
 ---
 # X2Cscope plugin for MPLAB X 

@@ -15,12 +15,13 @@ Visit Microchip University training platform for our training video: [http://mic
 
 ## Overview
 
-X2Cscope debugging set-up is similar to the standard ICSP/SWD/JTAG debugging session.
-An IDE is used on the PC to help your software development process and the PC is connected to the target application MCU for debugging.  X2Cscope is a comprehensive package that has GUI on the PC side and a minimal firmware library on the target side.
+X2Cscope is a comprehensive debugging package:
+* PC side package called [pyX2Cscope](https://x2cscope.github.io/pyx2cscope/) 
+* C implemented library for emebedded systems to enable MCUs to communicate to the PC SW [demos](docs/supportedHW.md).
 
-![MCU<->PC](/images/overview_1.png)
+![MCU<->PC](/images/overview.gif)
 
-The main difference (to ICSP/SWD/JTAG) is the X2Cscope uses builtin peripherals like UART, CAN, TCP/IP and does not need external debugger tool. (Therefore it is dirt cheap.) Additionally it supports run-time data transfers. In other words, it is possible to read **and write** variables without stopping the target MCU execution. This is very handy at motor control and power control applications. (Of course it can be used at any kind of applications.)
+The main difference (to ICSP/SWD/JTAG) is the X2Cscope enabled firmware uses builtin peripherals like UART, CAN, TCP/IP and does not need external debugger tool. Additionally it supports run-time data transfers. In other words, it is possible to read **and write** variables without stopping the target MCU execution. This is very handy at motor control and power control applications. (Of course it can be used at any kind of applications.)
 
 ## Quick start
 
