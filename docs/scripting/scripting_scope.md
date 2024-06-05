@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Scope API
-parent: Scripting
+parent: Scripting (legacy MPLAB X)
 nav_order: 2
 ---
 

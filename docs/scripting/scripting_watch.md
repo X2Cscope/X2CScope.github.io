@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Symbol API (Watch)
-parent: Scripting
-nav_order: 2
+parent: Scripting (legacy MPLAB X)
+nav_order: 1
 ---
 
 # New python implementation!
