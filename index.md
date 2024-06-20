@@ -5,7 +5,7 @@ nav_order: 1
 ---
 
 <img src="images/X2Cscope_logo.png" alt="LOGO" align="left" style="padding-right: 15px" width="150"/>
-<a href="https://x2cscope.github.io/pyx2cscope/"> <img src="../../images/pyx2cscope_logo.png" alt="LOGO" align="right" style="padding-right: 15px" width="150"/> </a>
+<a href="https://x2cscope.github.io/pyx2cscope/"> <img src="images/pyx2cscope_logo.png" alt="LOGO" align="right" style="padding-right: 15px" width="150"/> </a>
 
 X2CScope is a run-time, live debugger tool for [Microchip](https://www.microchip.com/) microcontrollers. 
 X2Cscope is for generic use in any embedded application and perfectly fits for signal processing related applications. [pyX2Cscope](https://x2cscope.github.io/pyx2cscope/) scripting interfaces enables the system for automated HIL tests. 
@@ -37,8 +37,8 @@ The recommended way to start is to use one of the prepared demo.
 3. Program the target hardware.
 4. Connect USB-UART converter to the HW and the PC.
 5. Open pyX2Cscope [How to use the python package](https://x2cscope.github.io/pyx2cscope/)
-    a. `pip install pyX2Cscope`
-    b. `python -m pyx2cscope`
+    1. `pip install pyX2Cscope`
+    2. `python -m pyx2cscope`
 6. Configure and select COM port. Baud rate is 115200 at most of the demos. (check device manager if needed for COM number)
 7. Connect with pyX2Cscope to the hardware. (Click connect button)
 8. Use scope and watch views.

@@ -7,7 +7,7 @@ nav_order: 3
 
 # X2Cscope firmware manual set-up
 {: .no_toc}
-If you are advanced programmer and do not use configurator tools like [Harmony](harmony.md) or [MCC](mcc.md), then this guide will help you to use X2Cscope with your custom application.
+If you are advanced programmer and do not use configurator tools like [Harmony](harmony.md) or [MCC](mcc.md), then this guide will help you to use X2Cscope with your custom application code.
 
 You can find a detailed tutorial video at [Microcipp University](https://microchip.com/mu) training platform.
 
