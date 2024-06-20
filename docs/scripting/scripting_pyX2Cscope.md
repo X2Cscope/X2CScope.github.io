@@ -2,10 +2,10 @@
 layout: default
 title: Scripting pyX2Cscope
 nav_order: 4
-has_children: true
+has_children: false
 ---
 
-<img src="../../images/pyx2cscope_logo.png" alt="LOGO" align="left" style="padding-right: 15px" width="150"/>
+<a href="https://x2cscope.github.io/pyx2cscope/"> <img src="../../images/pyx2cscope_logo.png" alt="LOGO" align="left" style="padding-right: 15px" width="150"/> </a>
 
 pyX2Cscope is the PC side software implementatio to communicate to the X2C firmware enabled platforms.
 

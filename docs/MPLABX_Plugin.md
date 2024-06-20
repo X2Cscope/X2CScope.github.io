@@ -13,11 +13,9 @@ nav_order: 7
 {:toc}
 
 ---
-# New python implementation!
+# Recommended to use the new python package for scripting: [https://x2cscope.github.io/pyx2cscope/](https://x2cscope.github.io/)
 
-The Python implementation can be found at pyx2cscope: https://x2cscope.github.io/pyx2cscope/
-
-!The documentation below is for the not maintained MPLAB X plugin!
+The MPLAB X plugin is not updated anymore.
 
 ## Install X2Cscope plugin within MPLAB X
 

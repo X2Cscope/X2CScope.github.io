@@ -5,17 +5,18 @@ nav_order: 1
 ---
 
 <img src="images/X2Cscope_logo.png" alt="LOGO" align="left" style="padding-right: 15px" width="150"/>
+<a href="https://x2cscope.github.io/pyx2cscope/"> <img src="../../images/pyx2cscope_logo.png" alt="LOGO" align="right" style="padding-right: 15px" width="150"/> </a>
 
-X2CScope is a runtime, online/live debugger for [Microchip](https://www.microchip.com/) microcontrollers. 
-X2Cscope is for generic use in any embedded application and perfectly fits for signal processing related applications. [pyX2Cscope](https://x2cscope.github.io/pyx2cscope/) scripting interfaces enabled the system for automated HIL tests. 
+X2CScope is a run-time, live debugger tool for [Microchip](https://www.microchip.com/) microcontrollers. 
+X2Cscope is for generic use in any embedded application and perfectly fits for signal processing related applications. [pyX2Cscope](https://x2cscope.github.io/pyx2cscope/) scripting interfaces enables the system for automated HIL tests. 
 
 Visit Microchip University training platform for our training video: [http://microchip.com/mu](http://microchip.com/mu)
 
 ## Overview
 
-X2Cscope is a comprehensive debugging package:
+X2Cscope is a firmware based run-time debugging tool. It consists of two package:
 * PC side package called [pyX2Cscope](https://x2cscope.github.io/pyx2cscope/) 
-* C implemented library for emebedded systems (MCUs) [demos](docs/supportedHW.md)
+* C implementation for the target emebedded systems (MCUs) [X2Cscope firmware lib](docs/firmware/X2CscopeFirmware.md)
 
 ![MCU<->PC](/images/overview.gif)
 
