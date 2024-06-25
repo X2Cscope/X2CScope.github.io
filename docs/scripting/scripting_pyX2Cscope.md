@@ -14,14 +14,43 @@ Detailed documentation of pyX2Cscope python package: [https://x2cscope.github.io
 
 # Quick start
 
+Create a virtual environment and install pyx2cscope using the following commands (Windows):
+
 ```bash
-# Create virtual environment
 python -m venv .venv
-source .venv/Scripts/activate
-# Install pyX2Cscope
+.venv\Scripts\activate
 pip install pyx2cscope
-# Start demo GUI
+```
+
+It is highly recommended to install python libraries underneath a virtual environment.
+
+Nevertheless, to install at system level, execute the following lines:
+
+```bash
+pip install pyx2cscope
+pip install PyQt5 --user --ignore-installed
+```
+
+In case you already have installed pyx2cscope, you only need to update the package to the new version typing:
+
+```bash
+pip install --upgrade pyx2cscope
+```
+
+Start pyX2Cscope
+
+```bash
+# Start demo QT based GUI
 python -m pyx2cscope
+```
+
+```bash
+# Start WEB based GUI
+   python -m pyx2cscope -w
+```
+
+```bash
+   python -m pyx2cscope --help
 ```
 
 ![pyX2Cscope animation](../../images/pyx2cscopeConsole.gif)
