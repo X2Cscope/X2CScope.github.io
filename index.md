@@ -7,7 +7,7 @@ nav_order: 1
 <img src="images/X2Cscope_logo.png" alt="LOGO" align="left" style="padding-right: 15px" width="150"/>
 <a href="https://x2cscope.github.io/pyx2cscope/"> <img src="images/pyx2cscope_logo.png" alt="LOGO" align="right" style="padding-right: 15px" width="150"/> </a>
 
-X2CScope is a run-time, live debugger tool for [Microchip](https://www.microchip.com/) microcontrollers. 
+X2Cscope is a run-time, live debugger tool for [Microchip](https://www.microchip.com/) microcontrollers. 
 X2Cscope is for generic use in any embedded application and perfectly fits for signal processing related applications. [pyX2Cscope](https://x2cscope.github.io/pyx2cscope/) scripting interfaces enables the system for automated HIL tests. 
 
 Visit Microchip University training platform for our training video: [http://microchip.com/mu](http://microchip.com/mu)

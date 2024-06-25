@@ -12,7 +12,7 @@
 title: X2Cscope
 email: mark.wendler@microchip.com
 description: >- # this means to ignore newlines until "baseurl:"
-  X2CScope documentation. 
+  X2Cscope documentation. 
   X2Cscope is a runtime, online debugger. It is a firmware based tool for Embedded systems, MCUs. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://x2cscope.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -26,7 +26,7 @@ color_scheme: dark
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/X2Cscope/X2CScope.github.io" # the github URL for your repo
+gh_edit_repository: "https://github.com/X2Cscope/X2Cscope.github.io" # the github URL for your repo
 gh_edit_branch: "master" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately

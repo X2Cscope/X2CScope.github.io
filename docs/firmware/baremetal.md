@@ -30,8 +30,8 @@ You can find a detailed tutorial video at [Microcipp University](https://microch
 ## 2. Add the files to your MPLAB X project
 
 1. Create X2Cscope logical folders
-2. Add X2CScope.c and X2CScopeComm.c source files to the MPLAB X project
-3. Add X2CScope.h and X2CScopeComm.h header files to the MPLAB X project
+2. Add X2Cscope.c and X2CscopeComm.c source files to the MPLAB X project
+3. Add X2Cscope.h and X2CscopeComm.h header files to the MPLAB X project
 4. Add X2Cscope libx2cscope-****.a library file to the MPLAB X project
 
 
@@ -45,14 +45,14 @@ This is the most tricky part. The X2Cscope library can use different serial comm
 
 
 1. Configure your communication peripheral. (UART 115200/8-N-1 is recommended.) 
-2. Implement communication interfaces in the X2CScopeComm.c file. ([API reference](interface_reference.md))
+2. Implement communication interfaces in the X2CscopeComm.c file. ([API reference](interface_reference.md))
    1. void sendSerial(uint8_t data)
    2. uint8_t receiveSerial()
    3. uint8_t isReceiveDataAvailable()
    4. uint8_t isSendReady() 
-3. Initialise X2Cscope with X2CScope_Init(); ([API reference](interface_reference.md))
-4. Call X2CScopeCommunicate(); at the main idle loop or as a low priority task ([API reference](interface_reference.md))
-5. Call X2CScope_Update(); periodically at an interrupt. ([API reference](interface_reference.md))
+3. Initialise X2Cscope with X2Cscope_Init(); ([API reference](interface_reference.md))
+4. Call X2CscopeCommunicate(); at the main idle loop or as a low priority task ([API reference](interface_reference.md))
+5. Call X2Cscope_Update(); periodically at an interrupt. ([API reference](interface_reference.md))
 
 ## 4. Compile then use X2Cscope
 

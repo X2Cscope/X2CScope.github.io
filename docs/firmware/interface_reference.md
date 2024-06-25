@@ -15,28 +15,28 @@ nav_order: 4
 {:toc}
 
 
-## X2CScope_Initialise
+## X2Cscope_Initialise
 ```c
-void X2CScope_Initialise(void);
+void X2Cscope_Initialise(void);
 ```
 This must be called before using X2Cscope.
 This initialises the buffer and LNET protocol. 
 **Example**
 ```c
 void X2Cscope_init(void){ //Call this at HW init section
-    X2CScope_HookUARTFunctions( 
+    X2Cscope_HookUARTFunctions( 
         sendSerial, 
         receiveSerial, 
         isReceiveDataAvailable, 
         isSendReady
         ); //Set communication interfaces
-    X2CScope_Initialise(); // Library built in function for buffer and LNET protocol initialise
+    X2Cscope_Initialise(); // Library built in function for buffer and LNET protocol initialise
 }
 ```
 
-## X2CScope_HookUARTFunctions
+## X2Cscope_HookUARTFunctions
 ```c
-void X2CScope_HookUARTFunctions(
+void X2Cscope_HookUARTFunctions(
     void (*sendSerialFcnPntr)(uint8_t), 
     uint8_t (*receiveSerialFcnPntr)(), 
     uint8_t (*isReceiveDataAvailableFcnPntr)(), 
@@ -74,13 +74,13 @@ uint8_t isSendReady()
 
 // Then hook the functions at the init
 void X2Cscope_init(void){ //Call this at HW init section
-    X2CScope_HookUARTFunctions(
+    X2Cscope_HookUARTFunctions(
         sendSerial, 
         receiveSerial, 
         isReceiveDataAvailable, 
         isSendReady
         ); //Set communication interfaces
-    X2CScope_Initialise(); // Library built in function for buffer and LNET protocol initialise
+    X2Cscope_Initialise(); // Library built in function for buffer and LNET protocol initialise
 }
 ```
 
@@ -93,7 +93,7 @@ X2Cscope_update(); must be called with exact same periodicity to have proper sco
 // 1ms fixed period timer interrupt
 void __attribute__ ( ( interrupt, no_auto_psv ) ) _T1Interrupt (  )
 {
-    X2CScope_Update(); // SAmple point of X2Cscope
+    X2Cscope_Update(); // SAmple point of X2Cscope
     IFS0bits.T1IF = false; // Clear interrupt flag in the end
 }
 
@@ -110,12 +110,12 @@ int main(void)
 {
     // initialize the device
     initHardware();
-    X2CScope_Init();
+    X2Cscope_Init();
     ...
     while (1)
     {
         myAppTask(); //Low priority task in the idle loop
-        X2CScope_Communicate(); //Handle the communication with X2Cscope GUI
+        X2Cscope_Communicate(); //Handle the communication with X2Cscope GUI
     }
 }
 ```

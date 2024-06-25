@@ -3,7 +3,7 @@
 <a href="http://x2c.lcm.at"><img src="images/lcmblack.png" alt="MCHP" width="180" style="padding-left: 20px"/> </a>
 
 ---
-# X2CScope.github.io
+# X2Cscope.github.io
 This is the repository of X2Cscope documentation.
 
 It is hosted by Gihub pages at [X2Cscope.github.io](http://X2Cscope.github.io).

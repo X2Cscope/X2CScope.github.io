@@ -6,11 +6,11 @@ nav_order: 3
 ---
 # X2Cscope Firmware
 
-X2Cscope is implemented in plain C, therefore it can be integrated into a wide range of embedded application. We provide a prepared library ([see download section](../supportedHW.md)) and it can be integrated to C based application seamlessly. It is using minimal resources from the target MCU. 
+X2Cscope is implemented in C, therefore it can be integrated into a wide range of embedded application. We provide a prepared library ([see download section](../supportedHW.md)) and it can be integrated to C based application seamlessly. It is using minimal resources from the target MCU. 
 
 The minimal requirements:
 * 6-10 kByte flash (depends on the CPU architecture)
-* 5.5 kByte RAM (Can be lower, this is just default scope windows size)
+* 0.5 kByte RAM + Scope size (Can be lower, this is just default scope windows size)
 * Serial communication peripheral (UART, CAN, USB-CDC or Ethernet with TCP/IP)
 
 ![Architecture](/images/architecture.png)

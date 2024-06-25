@@ -170,6 +170,6 @@ Sets Scope sample time. Used for time vector calculation.
 ###  Example
 ```python
 #set sample time to 50us
-#Should be same as X2CScope_Update call period
+#Should be same as X2Cscope_Update call period
 x2c_scope.setSampleTime(0.00005) 
 ```

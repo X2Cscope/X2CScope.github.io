@@ -77,7 +77,7 @@ Then apply the new settings. Then do points from 1. to 4. again.
 
 ## Use the Scope window
 
-1. Set sample time of scope. Attention! Set this according to the period of X2CScope_update(); function call. (See [Firmware guide](firmware/X2CscopeFirmware.md).)
+1. Set sample time of scope. Attention! Set this according to the period of X2Cscope_update(); function call. (See [Firmware guide](firmware/X2CscopeFirmware.md).)
 2. Open Scope window from Data Views tab.
 3. Click to the empty Source box to select source signal/variable.
 4. Click Sample to start the scope.
