@@ -46,11 +46,12 @@ python -m pyx2cscope
 
 ```bash
 # Start WEB based GUI
-   python -m pyx2cscope -w
+python -m pyx2cscope -w
 ```
 
 ```bash
-   python -m pyx2cscope --help
+# Help
+python -m pyx2cscope --help
 ```
 
 ![pyX2Cscope animation](../../images/pyx2cscopeConsole.gif)

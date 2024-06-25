@@ -35,21 +35,21 @@ All of the demos are hosted on github: <a href="https://github.com/x2cscope">htt
 
 The package contains the precompiled X2Cscope libraries for the most popular [Microchip MCUs](https://www.microchip.com/mcu). You can use these libs to integrate X2Cscope tool to your custom/bare metal application. (See X2Cscope firmware tutorial [page](firmware/baremetal.md))
 
-| MCU family | Architecture | default scope size [bytes] | lib name | Compiler |
-| --- | ----- | ---------- | --------- | ----- |
-| SAMD2x | 32bit Cortex-M0 | 5000 | libx2cscope-cm0-elf.a | XC32 v2.50 |
-| SAME5x | 32bit Cortex-M4 | 5000 | libx2cscope-cm4-elf.a | XC32 v2.50 |
-| SAME70 | 32bit Cortex-M7 | 5000 | libx2cscope-cm7-elf.a | XC32 v2.50 |
-| dsPIC33CH Master core | 16bit dsPIC33C | 5000 | libx2cscope-33ch_master-elf.a | XC16 v1.60 |
-| dsPIC33CH Slave core | 16bit dsPIC33C | 2500 | libx2cscope-33ch_slave-elf.a | XC16 v1.60 |
-| dsPIC33CK MP | 16bit dsPIC33C | 5000 | libx2cscope-33ck-elf.a | XC16 v1.60 |
-| dsPIC33CK MC | 16bit dsPIC33C | 5000 | libx2cscope-33ck_mc-elf.a | XC16 v1.60 |
-| dsPIC33EP | 16bit dsPIC33E | 5000 | libx2cscope-33ep-elf.a | XC16 v1.60 |
-| dsPIC33FJ | 16bit dsPIC33F | 5000 | libx2cscope-33fj-elf.a | XC16 v1.60 | 
-| PIC24FJ | 16bit PIC24 | 5000 | libx2cscope-24fj-elf.a | XC16 v1.60 |
-| PIC32MM | 32bit MIPS microAptiv | 5000 | libx2cscope-32mm-elf.a | XC32 v2.50 | 
-| PIC32MX | 32bit MIPS M4K | 5000 | libx2cscope-32mx-elf.a | XC32 v2.50 |
-| PIC32MZ | 32bit MIPS M-Class | 5000 | libx2cscope-32mz-elf.a | XC32 v2.50 |
+* PIC32MM
+* PIC32MX
+* PIC32MZ
+* SAMD2x	32bit Cortex-M0
+* SAME5x	32bit Cortex-M4
+* SAME70	32bit Cortex-M7
+* dsPIC33CH Main core
+* dsPIC33CH Secondary core
+* dsPIC33CK_MP
+* dsPIC33CK_MC
+* dsPIC33EP
+* dsPIC33FJ
+* PIC24FJ
+* PIC24EP
+
 
 
 ## * 8bit limitation
